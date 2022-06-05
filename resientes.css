@@ -1,0 +1,131 @@
+:root {
+	--rojo: #E50914;
+	--fondo: #141414;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: var(--fondo);
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+	width: 90%;
+	margin: auto;
+}
+
+header {
+	padding: 30px 0;
+}
+
+header .contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .logotipo{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    color: var(--rojo);
+    font-size: 40px;
+}
+
+header nav a {
+    color: #AAA;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.activo{
+    color: #FFF;
+}
+
+/* ---- ----- ----- Pelicula Resientes ----- ----- ----- */
+#peliculas_recientes{
+	color: #FFF;
+	margin-top: 20px;
+	margin-left: 8px;
+}
+
+#chip{
+	width: 320px;
+	height: 200px;
+	margin-top: 20px;
+	margin-left: 8px;
+}
+
+#burbujas{
+	width: 320px;
+	height: 200px;
+	margin-left: 8px;
+}
+
+#sonic_2{
+	width: 320px;
+	height: 200px;
+	margin-left: 8px;
+}
+
+#red{
+	width: 320px;
+	height: 200px;
+	margin-left: 8px;
+}
+
+#hotel_transilbania{
+	width: 320px;
+	height: 200px;
+	margin-left: 8px;
+	margin-top: 20px;
+}
+
+#titans_y_dc_hero_girls{
+	width: 320px;
+	height: 200px;
+	margin-left: 8px;
+}
+
+#eternals{
+	width: 320px;
+	height: 200px;
+	margin-left: 8px;
+}
+
+#encanto{
+	width: 320px;
+	height: 200px;
+	margin-left: 8px;
+}
+
+#spider_man{
+	width: 320px;
+	height: 200px;
+	margin-left: 8px;
+	margin-top: 20px;
+}
+
+#shang_chi{
+	width: 320px;
+	height: 200px;
+	margin-left: 8px;
+}
+
+/*---- ----- ----- Media Queries ----- ----- ----- */
+@media screen and (max-width: 800px) {
+	header .logotipo {
+		margin-bottom: 10px;
+		font-size: 30px;
+	}
+
+	header .contenedor {
+		flex-direction: column;
+		text-align: center;
+	}
+}

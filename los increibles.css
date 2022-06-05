@@ -1,0 +1,23 @@
+
+:root {
+	--fondo: #141414;
+}
+
+body{
+    background: var(--fondo);
+}
+
+.video{
+    border: 3px solid #141414;
+    height: 0px;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.video iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
